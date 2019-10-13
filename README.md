@@ -49,5 +49,5 @@ Release notes are available in [RELEASES.md](RELEASES.md).
 
 The `num-complex` crate is tested for rustc 1.15 and greater, and each feature are tested for
 
-- `rand`: 1.22 and later
+- `rand`: 1.32 and later
 - `i128`: 1.26 and later

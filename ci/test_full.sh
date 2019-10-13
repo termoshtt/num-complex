@@ -7,7 +7,7 @@ echo Testing num-complex on rustc ${TRAVIS_RUST_VERSION}
 MINOR_VERSION=$(rustc --version | cut -f 1 | cut -d. -f 2)
 
 FEATURES="std serde"
-if [[ $MINOR_VERSION -ge 22 ]]; then  # MSRV of rand feature is 1.22.0
+if [[ $MINOR_VERSION -ge 32 ]]; then  # MSRV of rand feature is 1.32.0
   FEATURES="$FEATURES rand"
 fi
 if [[ $MINOR_VERSION -ge 26 ]]; then  # MSRV of i128 features is 1.26.0
